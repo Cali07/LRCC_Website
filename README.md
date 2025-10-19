@@ -1,69 +1,46 @@
 
 # 🕊️ The Light Reformed Community Church (LRCC) Website
 
-A static, responsive website for **The Light Reformed Community Church** built with **Nuxt 3**, **Vuetify**, **Pinia**, and **CSS**.
+A static, responsive website for **The Light Reformed Community Church** built with **Nuxt 3**, **Vuetify 3**, and custom CSS. The site highlights the church vision, ministries, leadership, and ways for visitors to connect.
 
 ---
 
 ## ⚙️ Tech Stack
-- **Nuxt 3** – static site framework  
-- **Vuetify** – responsive UI components  
-- **Pinia** – weekly dynamic info store  
-- **CSS** – for custom styles  
-- **Formspree / Jotform** – handles form submissions  
+- **Nuxt 3** – file-based routing and static generation
+- **Vuetify 3** – accessible UI components and grid system
+- **@vite-pwa/nuxt** – optional offline support and metadata
+- **Formspree** – handles visitor and contact form submissions
+- **Custom CSS** – typography, spacing, and brand accents
 
 ---
 
-## 📁 Structure
+## 📁 Key Structure
+```
+assets/       → Global CSS and shared design tokens
+components/   → Global navigation and footer components
+layouts/      → App shell wrapping every page
+pages/        → Home, About, Leadership, Ministries, Connect, Events, Media, Contact
+public/       → Manifest, favicon, and static assets
 ```
 
-pages/        → Home, About, Leadership, Ministries, Connect, Events, Media, Contact
-components/   → Header, Footer, WeeklyHighlight, Cards
-store/        → weekly.js (Pinia store for weekly content)
-assets/       → images, CSS
-layouts/      → default.vue
-
-````
-
 ---
 
-## 🔁 Weekly Updates (Pinia)
-Use `/store/weekly.js` to update weekly scriptures or announcements.
-
-```js
-import { defineStore } from 'pinia'
-export const useWeeklyStore = defineStore('weekly', {
-  state: () => ({
-    lovePrinciple: {
-      verse: '1 Corinthians 13:4-7',
-      text: 'Love is patient, love is kind...'
-    }
-  })
-})
-````
-
----
-
-## 🏗️ Commands
-
+## 🚀 Getting Started
 ```bash
 npm install
-npm run dev       # start dev server
-npm run build     # build for production
-npm run generate  # generate static files
+npm run dev       # Start development server
+npm run build     # Build for production
+npm run generate  # Generate static site output
 ```
 
 ---
 
 ## 🌍 Deployment
-
-Deploy the `dist/` folder to **Netlify**, **Vercel**, or **GitHub Pages**.
+Deploy the generated `dist/` directory to any static hosting provider such as **Netlify**, **Vercel**, or **GitHub Pages**.
 
 ---
 
-## 📱 Info
-
+## 📱 Church Info
 **The Light Reformed Community Church**
 35 Troye Street, Sunnyside, Pretoria
-
-> “Drawing more and more people to the Light of Christ.”
+“Drawing more and more people to the Light of Christ.”

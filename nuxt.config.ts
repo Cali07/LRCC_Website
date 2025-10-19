@@ -6,30 +6,26 @@ export default defineNuxtConfig({
   ssr: false,
 
   modules: [
-    '@pinia/nuxt',
-    '@vite-pwa/nuxt', '@nuxtjs/leaflet','@nuxtjs/supabase',
+    '@vite-pwa/nuxt',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error
         config.plugins.push(vuetify({ autoImport: true }))
-
       })
     }
   ],
-    leaflet: {
-    heat: true
-},
+
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
-        name: 'Give & Get',
-        short_name: 'GiveGet AddHope',
-        description: 'Claim discounts, support meals for children, and see your impact in real-time.',
-        display: 'standalone',
-        start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#E4002B',
-        lang: 'en',
+      name: 'The Light Reformed Community Church',
+      short_name: 'LRCC',
+      description: 'A contemporary reformed church drawing people to the light of Christ in Sunnyside, Pretoria.',
+      display: 'standalone',
+      start_url: '/',
+      background_color: '#f9f7f2',
+      theme_color: '#1d3557',
+      lang: 'en',
       icons: [
         { src: '/icons/icon-48x48.png', sizes: '48x48', type: 'image/png' },
         { src: '/icons/icon-72x72.png', sizes: '72x72', type: 'image/png' },
@@ -52,38 +48,32 @@ export default defineNuxtConfig({
     }
   },
 
-  css: ['~/assets/main.css','leaflet/dist/leaflet.css'],
+  css: ['~/assets/main.css'],
 
   build: {
-    transpile: ['vuetify'],
+    transpile: ['vuetify']
   },
 
   vite: {
     vue: {
       template: {
-        transformAssetUrls,
+        transformAssetUrls
       }
     }
   },
 
   app: {
     head: {
-      link: [
-        { rel: 'manifest', href: '/manifest.webmanifest' }
-      ],
+      title: 'The Light Reformed Community Church',
       meta: [
-        { name: 'theme-color', content: '#4b0082' }
+        { name: 'description', content: 'Discover the ministry, events, and heart of The Light Reformed Community Church in Sunnyside, Pretoria.' },
+        { name: 'theme-color', content: '#1d3557' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+        { rel: 'apple-touch-icon', href: '/icons/icon-192x192.png' },
+        { rel: 'manifest', href: '/manifest.webmanifest' }
       ]
-    }
-  },
-
-  runtimeConfig: {
-    public: {
-      API_URL: process.env.API_URL,
-      APP_VERSION: process.env.APP_VERSION,
-        SUPABASE_URL: process.env.SUPABASE_URL,
-        SUPABASE_KEY: process.env.SUPABASE_KEY,
-        GEOAPIFY_KEY: process.env.GEOAPIFY_KEY,
     }
   }
 })

@@ -1,10 +1,11 @@
 {
-  "name": "Quotation Builder",
-  "short_name": "QuoteBuilder",
+  "name": "The Light Reformed Community Church",
+  "short_name": "LRCC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4b0082",
+  "background_color": "#f9f7f2",
+  "theme_color": "#1d3557",
+  "description": "Discover the ministry, events, and heart of The Light Reformed Community Church in Sunnyside, Pretoria.",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
