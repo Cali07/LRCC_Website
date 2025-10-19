@@ -1,116 +1,69 @@
-# Give & Get Hunger Hack Platform
 
-Give & Get is a mobile-first web platform designed for the **KFC Add Hope Biggest Hunger Hack**.  
-It connects **users, donors, partner companies, and KFC distribution centers** in a unified system to fight child hunger in South Africa through **discount-driven donations, real-time transparency, AI-driven hunger prediction, and route optimization for meal delivery**.
+# 🕊️ The Light Reformed Community Church (LRCC) Website
 
----
-
-## 🌍 Vision
-*"Get discounts, feed children, and see the impact in real-time."*
-
-Users claim **discount codes** from partner companies. Before receiving their code, they are **optionally prompted to donate** to feed a child through KFC Add Hope.  
-Donors and investors then **see exactly how their funds are used**, with:
-- **Real-time dashboards** showing meals delivered.
-- **Impact videos** from communities.
-- **AI-powered hunger hotspot maps** predicting areas at risk.
-
-Meanwhile, KFC centers use the **admin portal** to:
-- Report daily meal distribution data.
-- Manage funds and donations.
-- Use **AI route optimization** to deliver meals faster and more efficiently.
+A static, responsive website for **The Light Reformed Community Church** built with **Nuxt 3**, **Vuetify**, **Pinia**, and **CSS**.
 
 ---
 
-## ✨ Features
-
-### **Public Website**
-- Browse **partner discounts**.
-- **Claim discount codes** with optional donation.
-- **Impact dashboard**:
-    - Total meals delivered today/month/year.
-    - KFC contributions and partner matches.
-    - Short 30-second community impact videos.
-- **AI Hunger Hotspot Map**:
-    - Current hunger crisis regions.
-    - Predictions of future high-risk areas.
+## ⚙️ Tech Stack
+- **Nuxt 3** – static site framework  
+- **Vuetify** – responsive UI components  
+- **Pinia** – weekly dynamic info store  
+- **CSS** – for custom styles  
+- **Formspree / Jotform** – handles form submissions  
 
 ---
 
-### **Admin Portal (KFC Centers)**
-- **Daily Reporting:**
-    - Meals served.
-    - Children fed.
-    - Shortages and photo/video uploads.
-    - Works **offline-first** and syncs later.
-- **Funds Dashboard:**
-    - Tracks donation balances and approvals for field operations.
-- **AI Route Optimization:**
-    - Inputs: vehicle availability, warehouse stock, feeding center locations, and AI hotspot data.
-    - Outputs: optimized delivery routes with priority areas highlighted.
-- **Report Verification & Export:**
-    - Approve or flag reports.
-    - Export analytics for donors and government.
+## 📁 Structure
+```
+
+pages/        → Home, About, Leadership, Ministries, Connect, Events, Media, Contact
+components/   → Header, Footer, WeeklyHighlight, Cards
+store/        → weekly.js (Pinia store for weekly content)
+assets/       → images, CSS
+layouts/      → default.vue
+
+````
 
 ---
 
-### **Partner Management**
-- Businesses can:
-    - Add discount codes to the system.
-    - Run donation-matching campaigns (*e.g., “1 meal donated for every code claimed”*).
-    - View analytics: impressions, claims, and donations driven by their codes.
+## 🔁 Weekly Updates (Pinia)
+Use `/store/weekly.js` to update weekly scriptures or announcements.
+
+```js
+import { defineStore } from 'pinia'
+export const useWeeklyStore = defineStore('weekly', {
+  state: () => ({
+    lovePrinciple: {
+      verse: '1 Corinthians 13:4-7',
+      text: 'Love is patient, love is kind...'
+    }
+  })
+})
+````
 
 ---
 
-## 🧠 AI Hunger Prediction
-The platform uses AI to **predict hunger hotspots** by combining:
-- KFC center reports (meal counts, shortages).
-- Weather and drought data.
-- Food price trends.
-- School attendance and population data.
-
-**MVP:** rule-based scoring to flag critical areas.  
-**Future:** machine learning models for more accurate predictions.
-
----
-
-## 🏗 Tech Stack
-
-| **Layer**        | **Technology**           |
-|-------------------|--------------------------|
-| Frontend          | Nuxt 3 (Vue), Vuetify    |
-| Backend           | Node.js            |
-| AI Microservice   | Python + FastAPI         |
-| Database          | Supabase               |
-| Storage           | Supabase / Cloudinary    |
-| Maps & Routing    | Google Maps API / OR-Tools |
-| Payments          | Stripe / PayU / SnapScan |
-| Hosting           | Netify (Frontend)        |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v18 or later
-- npm (bundled with Node.js)
-
-### Install dependencies
+## 🏗️ Commands
 
 ```bash
 npm install
+npm run dev       # start dev server
+npm run build     # build for production
+npm run generate  # generate static files
 ```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-The app will start on [http://localhost:3000](http://localhost:3000) by default. Update environment variables in `.env` if you
-need to connect to external APIs or services.
 
 ---
 
-## ⚙️ Architecture
+## 🌍 Deployment
 
+Deploy the `dist/` folder to **Netlify**, **Vercel**, or **GitHub Pages**.
+
+---
+
+## 📱 Info
+
+**The Light Reformed Community Church**
+35 Troye Street, Sunnyside, Pretoria
+
+> “Drawing more and more people to the Light of Christ.”
