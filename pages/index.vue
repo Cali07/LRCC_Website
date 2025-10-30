@@ -21,7 +21,7 @@
             <v-btn color="secondary" class="text-body-1" rounded="lg" size="large" to="/connect">
               Plan a Visit
             </v-btn>
-            <v-btn variant="text" class="text-white text-body-1" href="#vision">Discover our vision</v-btn>
+            <v-btn color="#1d3557" class="text-white text-body-1" rounded="lg" size="large" href="#vision">Discover our vision</v-btn>
           </div>
         </div>
       </div>
@@ -177,3 +177,5 @@
     </section>
   </div>
 </template>
+<script setup lang="ts">
+</script>
