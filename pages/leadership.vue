@@ -30,7 +30,7 @@ const leaders = [
     photo: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Pastor Lerato Mokoena',
+    name: 'Pastor Lerato',
     title: 'Assistant Pastor',
     bio: 'Loves walking with families and helping them discover the transformative hope of the gospel.',
     photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
