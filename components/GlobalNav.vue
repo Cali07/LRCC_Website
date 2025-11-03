@@ -1,13 +1,13 @@
 <template>
   <v-app-bar
     flat
-    color="transparent"
+    color="#1d3557"
     density="comfortable"
     height="80"
     scroll-behavior="elevate"
     class="lrcc-nav px-4 px-sm-6"
   >
-    <v-container class="d-flex align-center justify-space-between px-0">
+    <v-container class="lrcc-nav__content d-flex align-center justify-space-between px-0">
       <NuxtLink to="/" class="text-decoration-none d-flex align-center gap-3 lrcc-nav__brand">
         <v-avatar class="lrcc-nav__avatar" size="46">
           <span class="lrcc-nav__avatar-glow"></span>
@@ -120,19 +120,13 @@ const isActive = (path: string) => {
   position: sticky;
   top: 0;
   z-index: 10;
-  border-radius: 20px;
-  margin: 12px auto;
-  max-width: min(1240px, 92vw);
-  backdrop-filter: blur(18px);
-  background: linear-gradient(135deg, rgba(27, 35, 58, 0.92), rgba(54, 80, 145, 0.88));
-  box-shadow: 0 14px 45px -20px rgba(20, 25, 44, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.lrcc-nav:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 24px 55px -20px rgba(19, 33, 68, 0.85);
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  backdrop-filter: blur(16px);
+  background: linear-gradient(135deg, rgba(18, 28, 58, 0.95), rgba(36, 67, 130, 0.95));
+  box-shadow: 0 20px 35px -24px rgba(8, 14, 32, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .lrcc-nav__brand {
@@ -157,13 +151,20 @@ const isActive = (path: string) => {
   z-index: -1;
 }
 
+.lrcc-nav__content {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .lrcc-nav-links {
-  gap: 1.5rem;
+  gap: 2rem;
+  margin-right: 2.75rem;
 }
 
 .lrcc-nav-link {
   position: relative;
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0.02em;
   transition: color 0.25s ease;
   display: inline-flex;
@@ -172,35 +173,22 @@ const isActive = (path: string) => {
   padding: 4px 0;
 }
 
-.lrcc-nav-link::after {
-  content: '';
-  position: absolute;
-  inset-inline: 0;
-  bottom: -6px;
-  height: 2px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, rgba(255, 200, 120, 0.5), rgba(255, 255, 255, 0.6));
-  opacity: 0;
-  transform: scaleX(0.3);
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.lrcc-nav-link:hover {
-  color: #ffffff;
-}
-
-.lrcc-nav-link:hover::after,
-.lrcc-nav-link--active::after {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
+.lrcc-nav-link:hover,
 .lrcc-nav-link--active {
   color: #ffffff;
+  font-weight: 600;
+  text-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.lrcc-nav-logo {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
 
 .lrcc-nav-divider {
-  opacity: 0.3;
+  opacity: 0.45;
 }
 
 .lrcc-nav-cta {
@@ -228,8 +216,8 @@ const isActive = (path: string) => {
 
 @media (max-width: 1280px) {
   .lrcc-nav {
-    border-radius: 16px;
-    margin: 10px 16px;
+    border-radius: 0;
+    margin: 0;
   }
 }
 
