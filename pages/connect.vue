@@ -26,7 +26,7 @@
                   <v-text-field label="Contact Info (Email or WhatsApp)" name="contact" variant="outlined" required></v-text-field>
                 </v-col>
                 <v-col cols="12">
-                  <v-textarea label="Reason for Visit" name="reason" variant="outlined" rows="3"></v-textarea>
+                  <v-textarea label="Tell us a bit about yourself" name="reason" variant="outlined" rows="3"></v-textarea>
                 </v-col>
                 <v-col cols="12">
                   <v-select
@@ -58,7 +58,7 @@
                   <template #prepend>
                     <v-icon icon="mdi-calendar-clock" color="secondary"></v-icon>
                   </template>
-                  <v-list-item-title>Fridays | 18:30 – 20:00</v-list-item-title>
+                  <v-list-item-title>Fridays | 18:00 – 19:30</v-list-item-title>
                   <v-list-item-subtitle>Main Auditorium, LRCC Campus</v-list-item-subtitle>
                 </v-list-item>
                 <v-list-item>
@@ -66,7 +66,7 @@
                     <v-icon icon="mdi-book-open-page-variant" color="secondary"></v-icon>
                   </template>
                   <v-list-item-title>Interactive Bible exploration</v-list-item-title>
-                  <v-list-item-subtitle>Small groups for deeper reflection</v-list-item-subtitle>
+                  <v-list-item-subtitle>Gathering for deeper reflection</v-list-item-subtitle>
                 </v-list-item>
               </v-list>
             </v-card>
@@ -92,7 +92,7 @@
                 </v-col>
                 <v-col cols="12" sm="6">
                   <v-btn block rounded="lg" color="secondary" prepend-icon="mdi-whatsapp" href="https://wa.me/27630000004" target="_blank">
-                    Children
+                    Main Group
                   </v-btn>
                 </v-col>
               </v-row>

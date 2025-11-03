@@ -35,7 +35,7 @@
               <p class="text-body-2 mb-4">
                 Dive into curated teachings from recent series. Stream directly on YouTube and share with your connect group.
               </p>
-              <v-btn rounded="lg" color="primary" href="https://www.youtube.com" target="_blank">
+              <v-btn rounded="lg" color="primary" href="https://www.youtube.com/@thelightreformedcommunityc9216" target="_blank">
                 Watch on YouTube
               </v-btn>
             </v-card>
@@ -66,7 +66,7 @@
 const gallery = [
   {
     src: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=1000&q=80',
-    alt: 'Worship night at LRCC',
+    alt: 'Worship nights at LRCC',
   },
   {
     src: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?auto=format&fit=crop&w=1000&q=80',
@@ -74,7 +74,7 @@ const gallery = [
   },
   {
     src: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=80',
-    alt: 'Youth connect session',
+    alt: 'Youth connect sessions',
   },
   {
     src: 'https://images.unsplash.com/photo-1518887575-5b7d5a293ba4?auto=format&fit=crop&w=1000&q=80',
@@ -86,7 +86,7 @@ const gallery = [
   },
   {
     src: 'https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1000&q=80',
-    alt: 'Men’s prayer breakfast',
+    alt: 'Men’s ministry gathering',
   },
 ]
 </script>

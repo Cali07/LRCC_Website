@@ -14,8 +14,8 @@
                 </template>
                 <v-card class="pa-4 lrcc-card--outline">
                   <h3 class="text-subtitle-1 mb-1">Celebration Service</h3>
-                  <div class="text-body-2">09:00 – 11:00 | Worship, Word &amp; Communion</div>
-                  <div class="text-body-2 mt-2">Kids’ Church &amp; Youth gather during the message.</div>
+                  <div class="text-body-2">09:00 – 12:00 | Worship, Word &amp; Communion</div>
+                  <div class="text-body-2 mt-2">Kids’ Church &amp; Youth Gathering.</div>
                 </v-card>
               </v-timeline-item>
               <v-timeline-item color="secondary">
@@ -24,8 +24,8 @@
                 </template>
                 <v-card class="pa-4 lrcc-card--outline">
                   <h3 class="text-subtitle-1 mb-1">Connect Sessions</h3>
-                  <div class="text-body-2">18:30 – 20:00 | Prayer, teaching, small groups</div>
-                  <div class="text-body-2 mt-2">Open to everyone—bring a friend!</div>
+                  <div class="text-body-2">18:00 – 19:30 | Prayer & Teaching. </div>
+                  <div class="text-body-2 mt-2">Open to everyone — bring a friend!</div>
                 </v-card>
               </v-timeline-item>
             </v-timeline>
