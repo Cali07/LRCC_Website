@@ -32,7 +32,7 @@
             <v-icon icon="mdi-facebook" size="20"></v-icon>
             <a href="https://www.facebook.com/tlrcc/" target="_blank" rel="noopener">Facebook</a>
           </div>
-          <div class="d-flex align-center gap-2 mb-2">00
+          <div class="d-flex align-center gap-2 mb-2">
             <v-icon icon="mdi-youtube" size="20"></v-icon>
             <a href="https://www.youtube.com/@thelightreformedcommunityc9216" target="_blank" rel="noopener">YouTube</a>
           </div>
