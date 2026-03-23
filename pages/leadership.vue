@@ -47,6 +47,12 @@ const leaders = [
     bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
   },
+   {
+    name: 'Dr N.F Mphephu',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
+    photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
+  },
   {
     name: 'Mr. N.K Netshimbupfe',
     title: 'Church Elder',
@@ -83,11 +89,11 @@ const leaders = [
     bio: 'One of the leaders of the LRCC Youth.',
     photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
   },
-   {
-    name: 'Mr. M. Magoro',
+  {
+    name: 'Mr M. Magoro',
     title: 'Youth Leader',
     bio: 'One of the leaders of the LRCC Youth.',
     photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
   },
-]
+   
 </script>
