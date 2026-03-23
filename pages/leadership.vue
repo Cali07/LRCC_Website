@@ -78,7 +78,7 @@ const leaders = [
     photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Mr. Mohau',
+    name: 'Mr. Mohau Moshapo',
     title: 'Youth Leader',
     bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
