@@ -24,7 +24,7 @@
 <script setup lang="ts">
 const leaders = [
   {
-    name: 'Pastor Ramantswana',
+    name: 'Pastor Hulisani Ramantswana',
     title: 'Pastor',
     bio: 'Passionate about biblical preaching and raising disciples who shine brightly in everyday life.',
     photo: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80',
@@ -36,21 +36,21 @@ const leaders = [
     photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Mrs. Ramantswana',
+    name: 'Mrs. Thapelo Ramantswana',
     title: 'Church Elder',
-    bio: 'One of the leaders of the Lighe Reformed Community Church.',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Mr. Tiyani Eugene Ngoveni',
     title: 'Church Elder',
-    bio: 'One of the leaders of the Lighe Reformed Community Church.',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Mr. Nndweleni Keneneth Netshimbupfe',
+    name: 'Mr. Nndweleni Kenneth Netshimbupfe',
     title: 'Church Elder',
-    bio: 'One of the leaders of the Lighe Reformed Community Church.',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1519340333755-56e9c77038f8?auto=format&fit=crop&w=800&q=80',
   },
   {
@@ -67,24 +67,24 @@ const leaders = [
   },
   {
     name: 'Naledi Maseko',
-    title: 'Kids Church Pastor',
+    title: 'Church Elder',
     bio: 'Helping children encounter Jesus through creative storytelling and worship.',
     photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Naledi Maseko',
-    title: 'Kids Church Pastor',
-    bio: 'Helping children encounter Jesus through creative storytelling and worship.',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
   },
   {
     name: 'Mr. Mohau',
     title: 'Youth Leader',
-    bio: 'Helping children encounter Jesus through creative storytelling and worship.',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
   },
    {
-    name: 'Miss. Gracious',
+    name: 'Miss. Gracious Rasivhetshele',
     title: 'Youth Leader',
     bio: 'Equipping the next generation to live confidently for Christ and influence culture.',
     photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
