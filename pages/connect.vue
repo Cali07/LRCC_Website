@@ -49,7 +49,7 @@
             <v-card class="lrcc-card pa-6 mb-6">
               <h2 class="text-h4 mb-3">Connect Sessions</h2>
               <p class="text-body-1 mb-4">
-                Join our midweek Connect Sessions every Friday at 18:30. We gather for worship, Bible teaching, and focused
+                Join our midweek Connect Sessions every Friday at 18:00. We gather for worship, Bible teaching, and focused
                 discipleship conversations inspired by our community flyers.
               </p>
               <v-divider class="my-4"></v-divider>
@@ -59,7 +59,7 @@
                     <v-icon icon="mdi-calendar-clock" color="secondary"></v-icon>
                   </template>
                   <v-list-item-title>Fridays | 18:00 – 19:30</v-list-item-title>
-                  <v-list-item-subtitle>Main Auditorium, LRCC Campus</v-list-item-subtitle>
+                  <v-list-item-subtitle>LRCC Church, Main Building</v-list-item-subtitle>
                 </v-list-item>
                 <v-list-item>
                   <template #prepend>
