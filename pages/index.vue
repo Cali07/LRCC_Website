@@ -53,7 +53,7 @@
                 <v-card class="lrcc-card text-center pa-6">
                   <v-icon icon="mdi-clock-time-five-outline" color="secondary" size="42" class="mb-4"></v-icon>
                   <h3 class="text-h6 mb-2">Sunday Services</h3>
-                  <p class="text-body-2 mb-0">09:00 - 11:00 | Worship, Word &amp; Fellowship</p>
+                  <p class="text-body-2 mb-0">09:00 - 12:00 | Worship, Word &amp; Fellowship</p>
                 </v-card>
               </v-col>
               <v-col cols="12" sm="6">
@@ -101,7 +101,7 @@
                 </v-avatar>
                 <div>
                   <strong>Service Times</strong>
-                  <div>Sunday 09:00 – 11:00 | Friday Connect Sessions 18:30</div>
+                  <div>Sunday 09:00 – 12:00 | Friday Connect Sessions 18:00</div>
                 </div>
               </div>
               <div class="d-flex align-center gap-3">
