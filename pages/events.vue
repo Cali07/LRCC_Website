@@ -6,7 +6,7 @@
       <v-row class="gy-6">
         <v-col cols="12" md="5">
           <v-card class="lrcc-card pa-6 mb-6">
-            <h2 class="text-h4 mb-4">Weekly Rhythm</h2>
+            <h2 class="text-h4 mb-4">Weekly Events</h2>
             <v-timeline density="comfortable" side="end">
               <v-timeline-item color="secondary">
                 <template #opposite>
