@@ -23,10 +23,24 @@
           <v-card class="lrcc-card pa-6">
             <h2 class="text-h5 mb-2">Confession of Faith</h2>
             <p class="text-body-2 mb-0">
-              We confess Jesus Christ as Lord and Savior, the light of the world who reconciles us to the Father. We believe in
-              the authority of Scripture, the power of the Holy Spirit, and the call for every believer to embody the love of
-              Christ in word and deed. In humility and obedience, we declare our dependence on God's grace for life and
-              godliness.
+              I believe in God the Father Almighty,
+              Maker of Heaven and Earth, 
+              And in Jesus Christ His only begotten son, our Lord,
+              Who was conceived by the Holy Spirit,
+              Born of the virgin Mary,
+              Suffered under Pontius Pilate,
+              Was crucified, died and was buried;
+              He descended into hell;
+              On the third day he rose again from the dead;
+              He ascended into heaven,
+              And is seated at the right hand of God the Father almighty;
+              From there he will come to judge the living and the dead.
+
+              I believe in the Holy Spirit,
+              The holy church of all believers,
+              The forgiveness of sins,
+              The resurrection of the body,
+              And the life everlasting. Amen.
             </p>
           </v-card>
         </v-col>
@@ -40,8 +54,16 @@
           <v-col cols="12" md="7">
             <v-card class="pa-6 lrcc-card lrcc-card--outline">
               <p class="text-body-1 mb-0">
-                "This is how we know what love is: Jesus Christ laid down his life for us. And we ought to lay down our lives
-                for our brothers and sisters." — 1 John 3:16
+              Hearing that Jesus had silenced the Sadducees, the Pharisees got together.
+                One of them, an expert in the law, tested him with this question: 
+                “Teacher, which is the greatest commandment in the Law?” 
+                Jesus replied: “ ‘Love the Lord your God with all your heart and with all your soul and with all your mind.’
+                This is the first and greatest commandment.
+                And the second is like it:
+                ‘Love your neighbor as yourself.’
+                All the Law and the Prophets hang on these two commandments.”
+               
+                (Matthew 22:34-40)
               </p>
             </v-card>
           </v-col>

@@ -59,7 +59,7 @@ const ministries = [
     icon: 'mdi-baby-face-outline',
     description:
       'Safe, vibrant spaces where children encounter Jesus through storytelling, worship, and hands-on activities inspired by our Kids’ Church brochure.',
-    highlights: ['Interactive lessons', 'Parent partnership', 'Worship dance'],
+    highlights: ['Interactive lessons', 'Parent partnership', 'Worship'],
   },
   {
     title: 'Youth Ministry',
@@ -75,7 +75,7 @@ const ministries = [
     icon: 'mdi-flower-outline',
     description:
       'Building a community of grace where women find encouragement, prayer support, and opportunities to lead.',
-    highlights: ['Prayer breakfasts', 'Mentoring groups', 'Community drives'],
+    highlights: ['Prayer sessions', 'Mentoring groups', 'Community Drive'],
   },
   {
     title: 'Men’s Ministry',
@@ -83,15 +83,15 @@ const ministries = [
     icon: 'mdi-shield-account',
     description:
       'Men sharpening one another in faith, character, and service through authentic brotherhood and accountability.',
-    highlights: ['Monthly breakfasts', 'Prayer walks', 'Leadership coaching'],
+    highlights: ['Prayer sessions', 'Community Drive', 'Leadership coaching'],
   },
   {
     title: 'Cell Groups',
-    tagline: 'Life together midweek',
+    tagline: 'Life together mid-week',
     icon: 'mdi-home-group',
     description:
       'Neighborhood groups meeting across Pretoria for prayer, discipleship, and practical care.',
-    highlights: ['Weekly gatherings', 'Scripture study', 'Shared meals'],
+    highlights: ['Weekly gatherings', 'Scripture study', 'Shared perspectives'],
   },
 ]
 </script>

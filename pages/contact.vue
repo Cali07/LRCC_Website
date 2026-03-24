@@ -41,12 +41,12 @@
               <h2 class="text-h5 mb-3">Service Times</h2>
               <v-list density="comfortable">
                 <v-list-item>
-                  <v-list-item-title>Sunday Celebration</v-list-item-title>
-                  <v-list-item-subtitle>09:00 – 11:00</v-list-item-subtitle>
+                  <v-list-item-title>Sunday Service</v-list-item-title>
+                  <v-list-item-subtitle>09:00 – 12:00</v-list-item-subtitle>
                 </v-list-item>
                 <v-list-item>
-                  <v-list-item-title>Friday Connect Sessions</v-list-item-title>
-                  <v-list-item-subtitle>18:30 – 20:00</v-list-item-subtitle>
+                  <v-list-item-title>Friday Service</v-list-item-title>
+                  <v-list-item-subtitle>18:00 – 19:30</v-list-item-subtitle>
                 </v-list-item>
               </v-list>
             </v-card>

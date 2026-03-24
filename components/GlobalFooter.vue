@@ -13,7 +13,7 @@
             </div>
           </div>
           <div class="text-body-2">35 Troye Street, Sunnyside, Pretoria</div>
-          <div class="text-body-2 mt-2">Sunday Service: 09:00 - 11:00</div>
+          <div class="text-body-2 mt-2">Sunday Service: 09:00 - 12:00</div>
         </v-col>
 
         <v-col cols="12" sm="6" md="3">
@@ -30,11 +30,11 @@
           <h4 class="text-subtitle-1 mb-3 text-white">Stay Connected</h4>
           <div class="d-flex align-center gap-2 mb-2">
             <v-icon icon="mdi-facebook" size="20"></v-icon>
-            <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.facebook.com/tlrcc/" target="_blank" rel="noopener">Facebook</a>
           </div>
           <div class="d-flex align-center gap-2 mb-2">
-            <v-icon icon="mdi-whatsapp" size="20"></v-icon>
-            <a href="https://wa.me/27630000000" target="_blank" rel="noopener">WhatsApp</a>
+            <v-icon icon="mdi-youtube" size="20"></v-icon>
+            <a href="https://www.youtube.com/@thelightreformedcommunityc9216" target="_blank" rel="noopener">YouTube</a>
           </div>
           <div class="d-flex align-center gap-2">
             <v-icon icon="mdi-email" size="20"></v-icon>

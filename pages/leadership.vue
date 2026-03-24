@@ -24,40 +24,76 @@
 <script setup lang="ts">
 const leaders = [
   {
-    name: 'Rev. Michael Dlamini',
-    title: 'Lead Pastor',
+    name: 'Professor H. Ramantswana',
+    title: 'Pastor',
     bio: 'Passionate about biblical preaching and raising disciples who shine brightly in everyday life.',
     photo: 'https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Pastor Lerato Mokoena',
-    title: 'Assistant Pastor',
-    bio: 'Loves walking with families and helping them discover the transformative hope of the gospel.',
+    name: 'Chaplain N. Ramufhi',
+    title: 'Pastor',
+    bio: 'Passionate about biblical preaching and raising disciples who shine brightly in everyday life.',
     photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Thabo Radebe',
-    title: 'Youth &amp; Young Adults Leader',
-    bio: 'Equipping the next generation to live confidently for Christ and influence culture.',
+    name: 'Mrs. T. Ramantswana',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Nomsa Khumalo',
-    title: 'Ladies’ Ministry Director',
-    bio: 'Creating safe spaces for women to flourish through prayer, mentoring, and service.',
+    name: 'Mr. T.E Ngoveni',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
+    photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
+  },
+   {
+    name: 'Dr N.F Mphephu',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Sipho Mthembu',
-    title: 'Men’s Ministry Coordinator',
-    bio: 'Encouraging men to lead with integrity, courage, and servant hearts.',
+    name: 'Mr. N.K Netshimbupfe',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1519340333755-56e9c77038f8?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Naledi Maseko',
-    title: 'Kids’ Church Pastor',
-    bio: 'Helping children encounter Jesus through creative storytelling and worship.',
+    name: 'Mr. M.T Magoro',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
     photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
   },
-]
+  {
+    name: 'Mrs. H. Shai',
+    title: 'Church Deacon',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
+    photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    name: 'Ms M. Phaswana',
+    title: 'Church Elder',
+    bio: 'One of the leaders of the Light Reformed Community Church.',
+    photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    name: 'Mr. M. Moshapo',
+    title: 'Youth Leader',
+    bio: 'One of the leaders of the LRCC Youth.',
+    photo: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
+  },
+   {
+    name: 'Miss. G. Rasivhetshele',
+    title: 'Youth Leader',
+    bio: 'One of the leaders of the LRCC Youth.',
+    photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    name: 'Mr M. Magoro',
+    title: 'Youth Leader',
+    bio: 'One of the leaders of the LRCC Youth.',
+    photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80',
+  }
+] 
 </script>
